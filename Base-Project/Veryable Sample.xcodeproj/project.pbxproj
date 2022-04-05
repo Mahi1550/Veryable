@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09F5497A5315486D756C4212 /* Pods_Veryable_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFCC6589E8234DDBAFB6174 /* Pods_Veryable_Sample.framework */; };
+		4D341DCD27F8D3D400709C58 /* AccountDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D341DCC27F8D3D400709C58 /* AccountDetailViewController.swift */; };
+		4D430E2227F9538F00F059A6 /* AccountInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D430E2127F9538F00F059A6 /* AccountInfoTableViewCell.swift */; };
+		4D430E2527F9585300F059A6 /* AccountListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D430E2427F9585300F059A6 /* AccountListViewModel.swift */; };
+		4D430E2827F95C5E00F059A6 /* AccountDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D430E2727F95C5E00F059A6 /* AccountDetailViewModel.swift */; };
+		4D430E3727FC0EB900F059A6 /* AccountListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D430E3627FC0EB900F059A6 /* AccountListViewModelTests.swift */; };
+		4D430E3927FC0EDF00F059A6 /* AccountDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D430E3827FC0EDF00F059A6 /* AccountDetailViewModelTests.swift */; };
+		4D430E3C27FC0F9500F059A6 /* AccountRepoMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D430E3B27FC0F9500F059A6 /* AccountRepoMock.swift */; };
+		515EC6B3242E5FBA00B21DBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515EC6B2242E5FBA00B21DBB /* AppDelegate.swift */; };
+		515EC6BC242E5FBC00B21DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515EC6BB242E5FBC00B21DBB /* Assets.xcassets */; };
+		6A948AE5265FEFCB005A22DA /* AccountListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A948AE4265FEFCB005A22DA /* AccountListViewController.swift */; };
+		6A948AEC265FF0A2005A22DA /* AccountRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A948AEB265FF0A2005A22DA /* AccountRepo.swift */; };
+		6A948AEE265FF0E5005A22DA /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A948AED265FF0E5005A22DA /* Account.swift */; };
+		6A948AF8265FF403005A22DA /* VColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A948AF3265FF403005A22DA /* VColor.swift */; };
+		6A948AFB265FF403005A22DA /* VryPallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A948AF6265FF403005A22DA /* VryPallete.swift */; };
+		6A948AFF265FF490005A22DA /* UIFont+Vry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A948AFE265FF490005A22DA /* UIFont+Vry.swift */; };
+		6A948B01265FF5CA005A22DA /* ViewColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A948B00265FF5CA005A22DA /* ViewColor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D430E3127FC0E9400F059A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 515EC6A7242E5FBA00B21DBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 515EC6AE242E5FBA00B21DBB;
+			remoteInfo = "Veryable Sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EB0BA61D6219763814275CA /* Pods-Veryable Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veryable Sample.debug.xcconfig"; path = "Target Support Files/Pods-Veryable Sample/Pods-Veryable Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		4D341DCC27F8D3D400709C58 /* AccountDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailViewController.swift; sourceTree = "<group>"; };
+		4D430E2127F9538F00F059A6 /* AccountInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInfoTableViewCell.swift; sourceTree = "<group>"; };
+		4D430E2427F9585300F059A6 /* AccountListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListViewModel.swift; sourceTree = "<group>"; };
+		4D430E2727F95C5E00F059A6 /* AccountDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailViewModel.swift; sourceTree = "<group>"; };
+		4D430E2D27FC0E9300F059A6 /* Veryable SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Veryable SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D430E3627FC0EB900F059A6 /* AccountListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListViewModelTests.swift; sourceTree = "<group>"; };
+		4D430E3827FC0EDF00F059A6 /* AccountDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailViewModelTests.swift; sourceTree = "<group>"; };
+		4D430E3B27FC0F9500F059A6 /* AccountRepoMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRepoMock.swift; sourceTree = "<group>"; };
+		515EC6AF242E5FBA00B21DBB /* Veryable Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Veryable Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		515EC6B2242E5FBA00B21DBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		515EC6BB242E5FBC00B21DBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		515EC6C3242E5FBC00B21DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A948AE4265FEFCB005A22DA /* AccountListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListViewController.swift; sourceTree = "<group>"; };
+		6A948AEB265FF0A2005A22DA /* AccountRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRepo.swift; sourceTree = "<group>"; };
+		6A948AED265FF0E5005A22DA /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		6A948AF3265FF403005A22DA /* VColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VColor.swift; sourceTree = "<group>"; };
+		6A948AF6265FF403005A22DA /* VryPallete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VryPallete.swift; sourceTree = "<group>"; };
+		6A948AFE265FF490005A22DA /* UIFont+Vry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Vry.swift"; sourceTree = "<group>"; };
+		6A948B00265FF5CA005A22DA /* ViewColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewColor.swift; sourceTree = "<group>"; };
+		B65FE61971F35C89FD901862 /* Pods-Veryable Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veryable Sample.release.xcconfig"; path = "Target Support Files/Pods-Veryable Sample/Pods-Veryable Sample.release.xcconfig"; sourceTree = "<group>"; };
+		CDFCC6589E8234DDBAFB6174 /* Pods_Veryable_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Veryable_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D430E2A27FC0E9300F059A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515EC6AC242E5FBA00B21DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F5497A5315486D756C4212 /* Pods_Veryable_Sample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D341DCB27F8D3A300709C58 /* AccountDetail */ = {
+			isa = PBXGroup;
+			children = (
+				4D341DCC27F8D3D400709C58 /* AccountDetailViewController.swift */,
+				4D430E2627F95C4100F059A6 /* ViewModel */,
+			);
+			path = AccountDetail;
+			sourceTree = "<group>";
+		};
+		4D430E2327F9583700F059A6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4D430E2427F9585300F059A6 /* AccountListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4D430E2627F95C4100F059A6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4D430E2727F95C5E00F059A6 /* AccountDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4D430E2E27FC0E9400F059A6 /* Veryable SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D430E3D27FC8C4300F059A6 /* Features */,
+				4D430E3A27FC0F8500F059A6 /* Mocks */,
+			);
+			path = "Veryable SampleTests";
+			sourceTree = "<group>";
+		};
+		4D430E3A27FC0F8500F059A6 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				4D430E3B27FC0F9500F059A6 /* AccountRepoMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		4D430E3D27FC8C4300F059A6 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				4D430E3F27FC8C5100F059A6 /* AccountDetail */,
+				4D430E3E27FC8C4B00F059A6 /* AccountList */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		4D430E3E27FC8C4B00F059A6 /* AccountList */ = {
+			isa = PBXGroup;
+			children = (
+				4D430E3627FC0EB900F059A6 /* AccountListViewModelTests.swift */,
+			);
+			path = AccountList;
+			sourceTree = "<group>";
+		};
+		4D430E3F27FC8C5100F059A6 /* AccountDetail */ = {
+			isa = PBXGroup;
+			children = (
+				4D430E3827FC0EDF00F059A6 /* AccountDetailViewModelTests.swift */,
+			);
+			path = AccountDetail;
+			sourceTree = "<group>";
+		};
+		515EC6A6242E5FBA00B21DBB = {
+			isa = PBXGroup;
+			children = (
+				515EC6B1242E5FBA00B21DBB /* Veryable Sample */,
+				4D430E2E27FC0E9400F059A6 /* Veryable SampleTests */,
+				515EC6B0242E5FBA00B21DBB /* Products */,
+				5DE92AB3940F2422220C966C /* Pods */,
+				ACA3CF90B57F65B3BD61022F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		515EC6B0242E5FBA00B21DBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				515EC6AF242E5FBA00B21DBB /* Veryable Sample.app */,
+				4D430E2D27FC0E9300F059A6 /* Veryable SampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		515EC6B1242E5FBA00B21DBB /* Veryable Sample */ = {
+			isa = PBXGroup;
+			children = (
+				515EC6B2242E5FBA00B21DBB /* AppDelegate.swift */,
+				6A948ADF265FEEA0005A22DA /* Features */,
+				6A948AE9265FEFEF005A22DA /* Repositories */,
+				6A948AE8265FEFE2005A22DA /* Models */,
+				6A948AFC265FF473005A22DA /* VryCustom */,
+				6A948AEA265FF01C005A22DA /* Resources */,
+			);
+			path = "Veryable Sample";
+			sourceTree = "<group>";
+		};
+		5DE92AB3940F2422220C966C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EB0BA61D6219763814275CA /* Pods-Veryable Sample.debug.xcconfig */,
+				B65FE61971F35C89FD901862 /* Pods-Veryable Sample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6A948ADF265FEEA0005A22DA /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				6A948AE0265FEEB7005A22DA /* AccountList */,
+				4D341DCB27F8D3A300709C58 /* AccountDetail */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		6A948AE0265FEEB7005A22DA /* AccountList */ = {
+			isa = PBXGroup;
+			children = (
+				6A948AE4265FEFCB005A22DA /* AccountListViewController.swift */,
+				6A948AE1265FEFB0005A22DA /* View */,
+				4D430E2327F9583700F059A6 /* ViewModel */,
+			);
+			path = AccountList;
+			sourceTree = "<group>";
+		};
+		6A948AE1265FEFB0005A22DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D430E2127F9538F00F059A6 /* AccountInfoTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6A948AE8265FEFE2005A22DA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6A948AED265FF0E5005A22DA /* Account.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6A948AE9265FEFEF005A22DA /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				6A948AEB265FF0A2005A22DA /* AccountRepo.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		6A948AEA265FF01C005A22DA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				515EC6BB242E5FBC00B21DBB /* Assets.xcassets */,
+				515EC6C3242E5FBC00B21DBB /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6A948AF1265FF403005A22DA /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				6A948AF3265FF403005A22DA /* VColor.swift */,
+				6A948AF6265FF403005A22DA /* VryPallete.swift */,
+				6A948B00265FF5CA005A22DA /* ViewColor.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		6A948AFC265FF473005A22DA /* VryCustom */ = {
+			isa = PBXGroup;
+			children = (
+				6A948AFD265FF47B005A22DA /* Fonts */,
+				6A948AF1265FF403005A22DA /* Colors */,
+			);
+			path = VryCustom;
+			sourceTree = "<group>";
+		};
+		6A948AFD265FF47B005A22DA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6A948AFE265FF490005A22DA /* UIFont+Vry.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		ACA3CF90B57F65B3BD61022F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDFCC6589E8234DDBAFB6174 /* Pods_Veryable_Sample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D430E2C27FC0E9300F059A6 /* Veryable SampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D430E3527FC0E9400F059A6 /* Build configuration list for PBXNativeTarget "Veryable SampleTests" */;
+			buildPhases = (
+				4D430E2927FC0E9300F059A6 /* Sources */,
+				4D430E2A27FC0E9300F059A6 /* Frameworks */,
+				4D430E2B27FC0E9300F059A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D430E3227FC0E9400F059A6 /* PBXTargetDependency */,
+			);
+			name = "Veryable SampleTests";
+			productName = "Veryable SampleTests";
+			productReference = 4D430E2D27FC0E9300F059A6 /* Veryable SampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		515EC6AE242E5FBA00B21DBB /* Veryable Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 515EC6C6242E5FBC00B21DBB /* Build configuration list for PBXNativeTarget "Veryable Sample" */;
+			buildPhases = (
+				BC96BD4CF25FCB26B9FD0738 /* [CP] Check Pods Manifest.lock */,
+				515EC6AB242E5FBA00B21DBB /* Sources */,
+				515EC6AC242E5FBA00B21DBB /* Frameworks */,
+				515EC6AD242E5FBA00B21DBB /* Resources */,
+				5AB5D1218C474D8632F273A9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Veryable Sample";
+			productName = "Veryable Sample";
+			productReference = 515EC6AF242E5FBA00B21DBB /* Veryable Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		515EC6A7242E5FBA00B21DBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Veryable Inc.";
+				TargetAttributes = {
+					4D430E2C27FC0E9300F059A6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 515EC6AE242E5FBA00B21DBB;
+					};
+					515EC6AE242E5FBA00B21DBB = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 515EC6AA242E5FBA00B21DBB /* Build configuration list for PBXProject "Veryable Sample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 515EC6A6242E5FBA00B21DBB;
+			productRefGroup = 515EC6B0242E5FBA00B21DBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				515EC6AE242E5FBA00B21DBB /* Veryable Sample */,
+				4D430E2C27FC0E9300F059A6 /* Veryable SampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D430E2B27FC0E9300F059A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515EC6AD242E5FBA00B21DBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515EC6BC242E5FBC00B21DBB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AB5D1218C474D8632F273A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Veryable Sample/Pods-Veryable Sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Veryable Sample/Pods-Veryable Sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Veryable Sample/Pods-Veryable Sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC96BD4CF25FCB26B9FD0738 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Veryable Sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D430E2927FC0E9300F059A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D430E3727FC0EB900F059A6 /* AccountListViewModelTests.swift in Sources */,
+				4D430E3C27FC0F9500F059A6 /* AccountRepoMock.swift in Sources */,
+				4D430E3927FC0EDF00F059A6 /* AccountDetailViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515EC6AB242E5FBA00B21DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A948AF8265FF403005A22DA /* VColor.swift in Sources */,
+				4D341DCD27F8D3D400709C58 /* AccountDetailViewController.swift in Sources */,
+				515EC6B3242E5FBA00B21DBB /* AppDelegate.swift in Sources */,
+				4D430E2827F95C5E00F059A6 /* AccountDetailViewModel.swift in Sources */,
+				4D430E2527F9585300F059A6 /* AccountListViewModel.swift in Sources */,
+				6A948AE5265FEFCB005A22DA /* AccountListViewController.swift in Sources */,
+				6A948B01265FF5CA005A22DA /* ViewColor.swift in Sources */,
+				6A948AEE265FF0E5005A22DA /* Account.swift in Sources */,
+				6A948AFF265FF490005A22DA /* UIFont+Vry.swift in Sources */,
+				4D430E2227F9538F00F059A6 /* AccountInfoTableViewCell.swift in Sources */,
+				6A948AEC265FF0A2005A22DA /* AccountRepo.swift in Sources */,
+				6A948AFB265FF403005A22DA /* VryPallete.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D430E3227FC0E9400F059A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 515EC6AE242E5FBA00B21DBB /* Veryable Sample */;
+			targetProxy = 4D430E3127FC0E9400F059A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D430E3327FC0E9400F059A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal.Veryable-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veryable Sample.app/Veryable Sample";
+			};
+			name = Debug;
+		};
+		4D430E3427FC0E9400F059A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal.Veryable-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veryable Sample.app/Veryable Sample";
+			};
+			name = Release;
+		};
+		515EC6C4242E5FBC00B21DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		515EC6C5242E5FBC00B21DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		515EC6C7242E5FBC00B21DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EB0BA61D6219763814275CA /* Pods-Veryable Sample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = V4PME44294;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Veryable Sample/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.veryableops.sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		515EC6C8242E5FBC00B21DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B65FE61971F35C89FD901862 /* Pods-Veryable Sample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = V4PME44294;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Veryable Sample/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.veryableops.sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D430E3527FC0E9400F059A6 /* Build configuration list for PBXNativeTarget "Veryable SampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D430E3327FC0E9400F059A6 /* Debug */,
+				4D430E3427FC0E9400F059A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		515EC6AA242E5FBA00B21DBB /* Build configuration list for PBXProject "Veryable Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515EC6C4242E5FBC00B21DBB /* Debug */,
+				515EC6C5242E5FBC00B21DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		515EC6C6242E5FBC00B21DBB /* Build configuration list for PBXNativeTarget "Veryable Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515EC6C7242E5FBC00B21DBB /* Debug */,
+				515EC6C8242E5FBC00B21DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 515EC6A7242E5FBA00B21DBB /* Project object */;
+}
