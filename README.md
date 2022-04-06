@@ -37,3 +37,4 @@ Use command &#8984; + U to run Unit test cases.
 ## External Frameworks
 
 * Used Alamofire to make api calls.
+* Used SnapKit to build User Interface.
